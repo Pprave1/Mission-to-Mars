@@ -24,7 +24,7 @@ The ourpose of the project is to extract data from NASA's website using Chrome D
 
 ![Challenge_del2.png](Challenge_images/Challenge_del2.png)
 
-#### Finally to clean the page updated the index.html file using Bootstrap3 grid sysytem ,aded images as thumbnails,to make web page mobile-responsive
+####Finally to clean the page updated the index.html file using Bootstrap3 grid sysytem ,aded images as thumbnails,to make web page mobile-responsive
 
 ![Challenge3.png](Challenge_images/Challenge3.png)
 
