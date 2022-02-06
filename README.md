@@ -13,3 +13,15 @@
 ##### Title with images
 
 ![challenge_del_1.png](Challenge_images/challenge_del_1.png)
+
+
+### Mongo database  was used to store the data ,integrated into web app ,so that data is displayed when everytime when scraping.py run.
+
+  #### Flask display data 
+
+![Challenge_del2.png](Challenge_images/Challenge_del2.png)
+
+
+![Challenge_del2.png](Challenge_images/Challenge_del2.png)
+
+
