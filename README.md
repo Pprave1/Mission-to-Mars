@@ -6,4 +6,10 @@
 ### Using above tools web scraping from NASA was achieved using Jupyter Notebook and updated the web app with Mar's Hemisphere Images and titles through 
 ### Deliverable 1,where created a data dictionary.
 
+ #### URL
+
 ![Challenge1.png](Challenge_images/Challenge1.png)
+
+##### Title with images
+
+![challenge_del_1.png](Challenge_images/challenge_del_1.png)
