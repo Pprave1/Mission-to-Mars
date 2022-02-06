@@ -14,7 +14,7 @@ The purpose of the project is to extract data from NASA's website using Chrome D
 ![challenge_del_1.png](Challenge_images/challenge_del_1.png)
 
 
-### Mongo database  was used to store the data ,integrated into web app ,so that data is displayed when everytime when scraping.py run don ein deliverable 2.
+### Mongo database  was used to store the data ,integrated into web app ,so that data is displayed when everytime scraping.py run as mentioned in deliverable 2.
 
   #### Flask display data 
 
@@ -23,7 +23,7 @@ The purpose of the project is to extract data from NASA's website using Chrome D
 
 ![Challenge_del2.png](Challenge_images/Challenge_del2.png)
 
-#### Finally to clean the page updated the index.html file using Bootstrap3 grid sysytem ,aded images as thumbnails,to make web page mobile-responsive.
+#### Finally to clean the page updated the index.html file using Bootstrap3 grid sysytem ,added images as thumbnails,to make web page mobile-responsive.
 
 #### Customized the button 
 
