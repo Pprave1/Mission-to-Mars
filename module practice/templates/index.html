@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>Mission to Mars</title>
+   <link
+     rel="stylesheet"
+     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+   />
+</head>
+<body style="margin: 0px; background:#0e0e0e; height: 100%">
+<img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://images.squarespace-cdn.com/content/v1/55c7f6bae4b0f16d8cbd8b61/1470288839621-21GD87D0DNVHV3G5X7XE/image-asset.jpeg?format=500w">
+     <!-- Add Jumbotron to Header -->
+    <div class="jumbotron text-center"style="background--color:#DC7633;">
+       <h1>Mission to Mars</h1>
+       <p><a class="btn btn-danger btn-lg" href="/scrape"
+        data-toggle="tooltip" title="Click me!"role="button">Scrape New Data</a></p>
+    </div>
+    <!-- Add section for Mars News -->
+    </div class="row" id="mars-news">
+    <div class="col-md-12">
+     <div class="media">
+         <div class="media-body">
+        </div>
+      </div>
+    </div>
+  </div>
+          <h2>Latest Mars News</h2>>
+          <h4 class="media-heading">{{ mars.news_title }}</h4>
+          <p>{{ mars.news_paragraph }}</p>
+         </div>
+      </div>
+    </div>
+  </div>
+   <!-- Section for Featured Image and Facts table -->
+   <div class="row" id="mars-featured-image">
+    <div class="col-lg-8 col-md-8 col-sm-12">
+      <h2>Featured Mars Image</h2>
+    </div>
+  </div>
+      
+      <img
+         src="{{mars.featured_image|default('static/images/error.png', true) }}" -->
+        class="img-responsive"
+        alt="Responsive image"
+      />
+    </div>
+  </div>
+    <div class="col-xs-4">
+      <!-- Mars Facts tables -->
+      <div class="table" id="mars-facts">
+        <h4>Mars Facts</h4>
+        <table class="table table-striped">
+        {{ mars.facts | safe }}
+      </table>
+      </div>
+    </div>
+  </div>
+</div> 
+<div>
+   <!-- Section for Mars Hemispheres -->
+  <h1 class="text-center">mars hemisphere Image</h1>
+    <div class="page-footer" style="height: 50px">
+<p class="text-justify">mars hemisphere Image</p>
+</div>
+<div>
+{% for hemisphere in mars.hemisphere_data %}
+<div class="col-md-3">
+  <div class=" thumbnail">
+    <img src="{{hemisphere.img_url}}"
+    <h2></b> {{ hemisphere['title']}}</b></h2>
+  </div>
+</div>
+</div>
+{% endfor %}
+</div>
+</body>     
+</body>
+</html>
