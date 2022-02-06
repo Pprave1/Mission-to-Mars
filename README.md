@@ -3,8 +3,7 @@
 The ourpose of the project is to extract data from NASA's website using Chrome Developer tools to analyse HTML code,Beautiful soup and Splinter to automate web brower when we begin the scraping;Mongo database to store data,and a web application named Flask to display the data.Using above  mentioned tools an app was developed to scrape informations like latest news from NASA; Featured image,facts about mars and hemisphere images.
    
 ## Results
-### Using above tools web scraping from NASA was achieved using Jupyter Notebook and updated the web app with Mar's Hemisphere Images and titles through 
-### Deliverable 1,where created a data dictionary.
+### Using above tools web scraping from NASA was achieved using Jupyter Notebook and updated the web app with Mar's Hemisphere Images and titles through  Deliverable 1,where created a data dictionary.
 
  #### URL
 
@@ -24,10 +23,13 @@ The ourpose of the project is to extract data from NASA's website using Chrome D
 
 ![Challenge_del2.png](Challenge_images/Challenge_del2.png)
 
-####Finally to clean the page updated the index.html file using Bootstrap3 grid sysytem ,aded images as thumbnails,to make web page mobile-responsive
+#### Finally to clean the page updated the index.html file using Bootstrap3 grid sysytem ,aded images as thumbnails,to make web page mobile-responsive.
+
+#### Customized the button 
 
 ![Challenge3.png](Challenge_images/Challenge3.png)
 
+#### Customized the facts table
 
 ![Challenge_del3.png](Challenge_images/Challenge_del3.png)
 
